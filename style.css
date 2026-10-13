@@ -393,7 +393,7 @@
     .hero-device {
       width: 100%;
       max-width: 420px;
-      aspect-ratio: 4/3;
+      aspect-ratio: 6/5;
       background: var(--clr-navy-card);
       border: 1px solid var(--clr-border);
       border-radius: var(--radius-lg);
@@ -407,8 +407,8 @@
       content: '';
       position: absolute;
 
-      /* VER ESTE COMANDO ABAIXO */
-      inset: absolute;
+      /* VINICIUS - VER ESTE COMANDO ABAIXO */
+      inset: 15px;  
 
       top: 0; left: 0; right: 0;
       height: 3px;
@@ -576,13 +576,14 @@
     }
 
     .hero-float-card.card-1 {
-      bottom: -20px;
+      /* bottom: -60px; */
+      top: -60px;
       left: -40px;
       animation-delay: 0s;
     }
 
     .hero-float-card.card-2 {
-      top: -20px;
+      top: -60px;
       right: -40px;
       animation-delay: 2s;
     }
@@ -1289,7 +1290,10 @@
       margin-top: 2px;
     }
 
-    .valor-item-body {}
+    /* .valor-item-body {
+      flex: 1;
+
+    } */
     .valor-item-title {
       font-size: .95rem;
       font-weight: 700;
